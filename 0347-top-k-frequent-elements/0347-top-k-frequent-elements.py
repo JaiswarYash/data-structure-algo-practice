@@ -6,6 +6,7 @@ class Solution:
 
         for n in nums:
             counter[n] += 1
+            # counter[n] = 1 + counter.get(n, 0) -> use this line  instead of "counter[n] += 1"  if we are not using defaultdict()
         
         freq = [[] for _ in range(len(nums)+1)]
 
