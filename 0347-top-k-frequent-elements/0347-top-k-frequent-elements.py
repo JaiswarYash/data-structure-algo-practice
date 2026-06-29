@@ -8,16 +8,17 @@ class Solution:
             counter[n] += 1
             # counter[n] = 1 + counter.get(n, 0) -> use this line  instead of "counter[n] += 1"  if we are not using defaultdict()
         
-        freq = [[] for _ in range(len(nums)+1)]
+        freq = [[] for _ in range(len(nums)+1)] # thid  empty buckets for element in nums
 
-        for n, f in counter.items():
-            freq[f].append(n)
+        for n, f in counter.items(): # this store element by there frequency -> so, element wit lowest frequency appear at start and element with highest appear at last index
+            freq[f].append(n) 
+
         res = []
-        for i in range(len(freq)-1,-1,-1):
-            for n in freq[i]:
-                res.append(n)
-                if len(res) == k:
-                    return res
+        for i in range(len(freq)-1,-1,-1):  # we're start from last index
+            for n in freq[i]: # element at that index store it in res
+                res.append(n) # here
+                if len(res) == k: # check if length of res must match k
+                    return res # return ans
 
 
 # hashmap = {}
