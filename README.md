@@ -29,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/JaiswarYash/data-structure-algo-practice/tree/master/0049-group-anagrams) |
 | [0217-contains-duplicate](https://github.com/JaiswarYash/data-structure-algo-practice/tree/master/0217-contains-duplicate) |
 | [0347-top-k-frequent-elements](https://github.com/JaiswarYash/data-structure-algo-practice/tree/master/0347-top-k-frequent-elements) |
+| [1929-concatenation-of-array](https://github.com/JaiswarYash/data-structure-algo-practice/tree/master/1929-concatenation-of-array) |
 ## Sorting
 |  |
 | ------- |
@@ -56,4 +57,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/JaiswarYash/data-structure-algo-practice/tree/master/0347-top-k-frequent-elements) |
+## Simulation
+|  |
+| ------- |
+| [1929-concatenation-of-array](https://github.com/JaiswarYash/data-structure-algo-practice/tree/master/1929-concatenation-of-array) |
 <!---LeetCode Topics End-->
