@@ -2,18 +2,18 @@ class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
 
         # create dict
-        bucket = {}
+        group = {}
 
-        # step 2 - lopp through list of str
+        # using for loop
         for i in strs:
-            sorted_key = ''.join(sorted(i))
-
-            if sorted_key in bucket:
-                bucket[sorted_key].append(i)
+            key = ''.join(sorted(i))
+            if key not in group:
+                group[key] = []
+                group[key].append(i)
             else:
-                bucket[sorted_key] = []
-                bucket[sorted_key].append(i)
-        return list(bucket.values())
+                group[key].append(i)
+        return list(group.values())
+
 
 '''
 Step 1: Loop through each word in the original list (don't sort the list).
