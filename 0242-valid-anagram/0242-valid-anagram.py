@@ -10,13 +10,9 @@ class Solution:
             counts[char] = counts.get(char, 0) +1
         
         for char in t:
-            if char in counts:
-                counts[char] -= 1
-                if counts[char] == 0:
-                    del counts[char]
-            else:
-                counts[char] = counts.get(char,0)
+            counts[char] = counts.get(char,0) -1
 
-            if len(counts) == 0:
-                return True
-        return False          
+            if counts[char] < 0:
+                return False
+
+        return True     
