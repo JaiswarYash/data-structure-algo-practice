@@ -3,21 +3,20 @@ class Solution:
 
         if len(s) != len(t):
             return False
-
-        freq_count = {}
+        
+        counts = {}
 
         for char in s:
-            if char not in freq_count:
-                freq_count[char] = 1
-            else:
-                freq_count[char] += 1
+            counts[char] = counts.get(char, 0) +1
         
         for char in t:
-            if char not in freq_count or freq_count[char] == 0:
-                return False
+            if char in counts:
+                counts[char] -= 1
+                if counts[char] == 0:
+                    del counts[char]
             else:
-                freq_count[char] -= 1
-        return True
+                counts[char] = counts.get(char,0)
 
-
-        
+            if len(counts) == 0:
+                return True
+        return False          
