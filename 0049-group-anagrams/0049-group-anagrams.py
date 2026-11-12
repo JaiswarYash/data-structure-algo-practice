@@ -10,5 +10,5 @@ class Solution:
             else:
                 anagrams[key] = []
                 anagrams[key].append(i)
-        return list(tuple(anagrams.values()))
+        return list(anagrams.values())
 
