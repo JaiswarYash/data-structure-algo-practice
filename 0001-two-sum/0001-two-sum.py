@@ -4,8 +4,8 @@ class Solution:
         seen = {}
 
         for i, num in enumerate(nums):
-            value = target - num
-            if value in seen:
-                return [i, seen[value]]
+            complement = target - num
+            if complement in seen:
+                return [i, seen[complement]]
             else:
                 seen[num] = i
