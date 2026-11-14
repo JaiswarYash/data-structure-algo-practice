@@ -3,16 +3,14 @@ class Solution:
 
         if len(s) != len(t):
             return False
-        
-        counts = {}
 
-        for char in s:
-            counts[char] = counts.get(char, 0) +1
-        
-        for char in t:
-            counts[char] = counts.get(char,0) -1
+        count = {}
 
-            if counts[char] < 0:
+        for c in s:
+            count[c] = count.get(c, 0) +1
+        for c in t:
+            count[c] = count.get(c,0) -1
+
+            if count[c] < 0:
                 return False
-
-        return True     
+        return True       
