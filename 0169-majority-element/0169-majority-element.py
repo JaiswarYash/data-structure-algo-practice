@@ -4,12 +4,12 @@ class Solution:
         majority = 0
         count = 0
 
-        for n in nums:
+        for i in range(len(nums)):
             if count == 0:
-                majority = n
-            if n == majority:
+                majority = nums[i]
+
+            if nums[i] == majority:
                 count += 1
             else:
-                count -=1
-        
+                count -= 1
         return majority
