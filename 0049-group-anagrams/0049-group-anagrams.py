@@ -3,10 +3,9 @@ class Solution:
 
         ans = defaultdict(list)
 
-        for i in strs:
+        for word in strs:
             count = [0]*26
-            for ch in i:
-                count[ord(ch) - ord('a')] += 1
-            ans[tuple(count)].append(i)
+            for c in word:
+                count[ord(c) - ord('a')] += 1
+            ans[tuple(count)].append(word)
         return list(ans.values())
-            
