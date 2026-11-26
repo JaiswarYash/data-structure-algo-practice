@@ -5,10 +5,10 @@ class Solution:
         right = len(numbers)-1
 
         while left < right:
-            if numbers[left] + numbers[right] < target:
-                left += 1
-            elif numbers[left] + numbers[right] > target:
+            Sum = numbers[left] + numbers[right]
+            if Sum > target:
                 right -= 1
+            elif Sum < target:
+                left +=1
             else:
                 return [left+1, right+1]
-        return -1
