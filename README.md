@@ -34,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/JaiswarYash/data-structure-algo-practice/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/JaiswarYash/data-structure-algo-practice/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/JaiswarYash/data-structure-algo-practice/tree/master/0238-product-of-array-except-self) |
+| [0283-move-zeroes](https://github.com/JaiswarYash/data-structure-algo-practice/tree/master/0283-move-zeroes) |
 | [0347-top-k-frequent-elements](https://github.com/JaiswarYash/data-structure-algo-practice/tree/master/0347-top-k-frequent-elements) |
 | [1929-concatenation-of-array](https://github.com/JaiswarYash/data-structure-algo-practice/tree/master/1929-concatenation-of-array) |
 ## Sorting
@@ -79,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0125-valid-palindrome](https://github.com/JaiswarYash/data-structure-algo-practice/tree/master/0125-valid-palindrome) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/JaiswarYash/data-structure-algo-practice/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0283-move-zeroes](https://github.com/JaiswarYash/data-structure-algo-practice/tree/master/0283-move-zeroes) |
 | [1768-merge-strings-alternately](https://github.com/JaiswarYash/data-structure-algo-practice/tree/master/1768-merge-strings-alternately) |
 ## Boyer–Moore Majority Vote Algorithm
 |  |
